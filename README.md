@@ -1,21 +1,4 @@
-import React, { useState } from 'react';
-
-const ValentinesPage = () => {
-  const [response, setResponse] = useState(null);
-
-  const handleYes = () => {
-    setResponse('yes');
-  };
-
-  const handleNo = () => {
-    setResponse('no');
-  };
-
-  const handleReset = () => {
-    setResponse(null);
-  };
-
-  return (
+# will you be my valentines? :3 
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
       <div className="text-center max-w-md">
         <img
